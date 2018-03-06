@@ -13,6 +13,7 @@
 #include "f2c.h"
 #include "blaswrap.h"
 #include "stdio.h"
+#include <stdio.h>
 
 /* Table of constant values */
 
@@ -20,7 +21,7 @@ static integer c__1 = 1;
 
 /* Subroutine */ int xerbla_(char *srname, integer *info)
 {
-    
+
 
 /*  -- LAPACK auxiliary routine (version 3.2) -- */
 /*     Univ. of Tennessee, Univ. of California Berkeley and NAG Ltd.. */

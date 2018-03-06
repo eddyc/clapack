@@ -12,6 +12,7 @@
 
 #include "f2c.h"
 #include "blaswrap.h"
+#include <stdio.h>
 
 /* Table of constant values */
 
@@ -24,7 +25,7 @@ static integer c__1 = 1;
 	    "ber \002,i2,\002 had \002,\002an illegal value\002)";
 
     /* Builtin functions */
-    integer s_wsfe(cilist *), i_len_trim(char *, ftnlen), do_fio(integer *, 
+    integer s_wsfe(cilist *), i_len_trim(char *, ftnlen), do_fio(integer *,
 	    char *, ftnlen), e_wsfe(void);
     /* Subroutine */ int s_stop(char *, ftnlen);
 
